@@ -4,7 +4,7 @@
 
 Drop meeting notes in a folder. The LLM extracts contacts, companies, deals, and action items — updates every relevant page, maintains cross-references, keeps your pipeline current. Browse it all in Obsidian with graph view, Dataview dashboards, and full-text search. Zero lock-in. Your data is just files.
 
-https://github.com/user-attachments/assets/demo.mp4
+<video src="https://raw.githubusercontent.com/Aakeeo/llm-wiki-crm/main/demo.mp4" controls width="100%"></video>
 
 ---
 
