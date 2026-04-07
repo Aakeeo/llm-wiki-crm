@@ -1,5 +1,5 @@
 ---
-type: task
+entity: task
 title: "Confirm Thursday sandbox walkthrough"
 assigned_to: "Our Team"
 related_to:

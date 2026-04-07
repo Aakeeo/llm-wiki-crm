@@ -1,5 +1,5 @@
 ---
-type: deal
+entity: deal
 name: "Platform Migration"
 company: "[[Meridian Health]]"
 primary_contact: "[[Sarah Chen]]"

@@ -1,5 +1,5 @@
 ---
-type: interaction
+entity: interaction
 date: 2026-03-25
 interaction_type: meeting
 participants:

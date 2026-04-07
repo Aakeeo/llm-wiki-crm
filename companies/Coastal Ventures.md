@@ -1,5 +1,5 @@
 ---
-type: company
+entity: company
 name: "Coastal Ventures"
 domain: "coastalvc.com"
 industry: "Venture Capital"

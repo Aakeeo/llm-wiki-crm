@@ -1,5 +1,5 @@
 ---
-type: deal
+entity: deal
 name: ""
 company: "[[{{company}}]]"
 primary_contact: "[[{{contact}}]]"

@@ -1,5 +1,5 @@
 ---
-type: interaction
+entity: interaction
 date: 2026-03-22
 interaction_type: demo
 participants:

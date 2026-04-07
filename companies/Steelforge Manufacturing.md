@@ -1,5 +1,5 @@
 ---
-type: company
+entity: company
 name: "Steelforge Manufacturing"
 domain: "steelforgemfg.com"
 industry: "Manufacturing"

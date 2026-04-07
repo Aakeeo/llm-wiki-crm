@@ -1,5 +1,5 @@
 ---
-type: dashboard
+entity: dashboard
 ---
 
 # CRM Home
@@ -15,7 +15,7 @@ TABLE WITHOUT ID
   length(filter(rows, (r) => r.stage != "closed-lost" AND r.stage != "closed-won")) AS "Active Deals",
   length(filter(rows, (r) => r.stage = "closed-won")) AS "Won Deals"
 FROM "deals"
-WHERE type = "deal"
+WHERE entity = "deal"
 FLATTEN stage
 GROUP BY true
 ```
@@ -25,7 +25,7 @@ TABLE WITHOUT ID
   length(filter(rows, (r) => r.status = "active")) AS "Active Contacts",
   length(rows) AS "Total Contacts"
 FROM "contacts"
-WHERE type = "contact"
+WHERE entity = "contact"
 GROUP BY true
 ```
 
@@ -34,7 +34,7 @@ TABLE WITHOUT ID
   length(filter(rows, (r) => r.status != "done")) AS "Open Tasks",
   length(filter(rows, (r) => r.status = "done")) AS "Completed Tasks"
 FROM "tasks"
-WHERE type = "task"
+WHERE entity = "task"
 GROUP BY true
 ```
 

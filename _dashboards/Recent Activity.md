@@ -1,5 +1,5 @@
 ---
-type: dashboard
+entity: dashboard
 ---
 
 # Recent Activity
@@ -13,7 +13,7 @@ TABLE WITHOUT ID
   company AS "Company",
   summary AS "Summary"
 FROM "interactions"
-WHERE type = "interaction"
+WHERE entity = "interaction"
 SORT date DESC
 LIMIT 20
 ```

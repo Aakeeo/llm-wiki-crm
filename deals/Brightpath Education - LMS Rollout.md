@@ -1,5 +1,5 @@
 ---
-type: deal
+entity: deal
 name: "LMS Rollout"
 company: "[[Brightpath Education]]"
 primary_contact: "[[Elena Rodriguez]]"

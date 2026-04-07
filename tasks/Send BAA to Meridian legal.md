@@ -1,5 +1,5 @@
 ---
-type: task
+entity: task
 title: "Send BAA to Meridian legal"
 assigned_to: "Our Team"
 related_to:

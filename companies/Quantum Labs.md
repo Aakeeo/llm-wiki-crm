@@ -1,5 +1,5 @@
 ---
-type: company
+entity: company
 name: "Quantum Labs"
 domain: "quantumlabs.io"
 industry: "Developer Tools"

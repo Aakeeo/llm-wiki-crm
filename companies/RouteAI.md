@@ -1,5 +1,5 @@
 ---
-type: company
+entity: company
 name: "RouteAI"
 domain: "routeai.com"
 industry: "Logistics"

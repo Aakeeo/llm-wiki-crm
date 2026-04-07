@@ -1,5 +1,5 @@
 ---
-type: task
+entity: task
 title: "Send Meridian revised proposal"
 assigned_to: "Our Team"
 related_to:

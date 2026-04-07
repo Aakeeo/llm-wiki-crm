@@ -1,5 +1,5 @@
 ---
-type: company
+entity: company
 name: "NovaPay"
 domain: "novapay.com"
 industry: "Fintech"

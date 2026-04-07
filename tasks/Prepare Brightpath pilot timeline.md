@@ -1,5 +1,5 @@
 ---
-type: task
+entity: task
 title: "Prepare Brightpath pilot timeline"
 assigned_to: "Our Team"
 related_to:

@@ -1,5 +1,5 @@
 ---
-type: task
+entity: task
 title: "{{title}}"
 assigned_to: ""
 related_to:

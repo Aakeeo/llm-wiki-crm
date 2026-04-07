@@ -1,5 +1,5 @@
 ---
-type: task
+entity: task
 title: "Schedule NovaPay demo"
 assigned_to: "Our Team"
 related_to:

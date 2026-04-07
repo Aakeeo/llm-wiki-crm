@@ -1,5 +1,5 @@
 ---
-type: task
+entity: task
 title: "Schedule RouteAI technical review"
 assigned_to: "Our Team"
 related_to:

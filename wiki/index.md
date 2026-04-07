@@ -1,5 +1,5 @@
 ---
-type: index
+entity: index
 ---
 
 # CRM Index
@@ -17,6 +17,7 @@ Master catalog of all pages in this CRM wiki.
 - [[Coastal Ventures]] — Seed-stage VC, investor and partner
 - [[NovaPay]] — Fintech startup, transaction analytics prospect (Coastal portfolio)
 - [[RouteAI]] — Logistics startup, analytics dashboard prospect (Coastal portfolio)
+- [[Aakeeo Technologies]] — CRM consultancy, industry-specific CRM solutions
 
 ## Contacts
 
@@ -31,6 +32,7 @@ Master catalog of all pages in this CRM wiki.
 - [[Lisa Tran]] — CTO at NovaPay, decision-maker
 - [[Mike Torres]] — VP Product at RouteAI, champion
 - [[Raj Mehta]] — CTO at RouteAI, technical gatekeeper
+- [[Arun Chauhan]] — Contact at Aakeeo Technologies
 
 ## Deals
 
@@ -67,6 +69,7 @@ Master catalog of all pages in this CRM wiki.
 - [[Schedule RouteAI technical review]] — High priority, due 2026-04-10
 - [[Confirm Thursday sandbox walkthrough]] — High priority, due 2026-04-08
 - [[Send BAA to Meridian legal]] — High priority, due 2026-04-10
+- [[Schedule call with Arun on Obsidian CRM implementation]] — High priority, due 2026-04-08
 
 ## Dashboards
 

@@ -1,5 +1,5 @@
 ---
-type: contact
+entity: contact
 name: "James O'Brien"
 email: "j.obrien@brightpathedu.org"
 phone: "+1-512-555-0224"

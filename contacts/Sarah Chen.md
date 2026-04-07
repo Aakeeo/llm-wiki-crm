@@ -1,5 +1,5 @@
 ---
-type: contact
+entity: contact
 name: "Sarah Chen"
 email: "s.chen@meridianhealth.com"
 phone: "+1-617-555-0142"

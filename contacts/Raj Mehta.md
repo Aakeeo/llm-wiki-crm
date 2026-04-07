@@ -1,5 +1,5 @@
 ---
-type: contact
+entity: contact
 name: "Raj Mehta"
 email: ""
 phone: ""

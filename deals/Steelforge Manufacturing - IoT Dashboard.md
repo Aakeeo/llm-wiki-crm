@@ -1,5 +1,5 @@
 ---
-type: deal
+entity: deal
 name: "IoT Dashboard"
 company: "[[Steelforge Manufacturing]]"
 primary_contact: "[[Aisha Mohammed]]"

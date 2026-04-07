@@ -1,5 +1,5 @@
 ---
-type: deal
+entity: deal
 name: "Seed Investment"
 company: "[[Coastal Ventures]]"
 primary_contact: "[[Tom Nakamura]]"

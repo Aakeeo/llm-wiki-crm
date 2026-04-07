@@ -1,5 +1,5 @@
 ---
-type: deal
+entity: deal
 name: "API Integration"
 company: "[[Quantum Labs]]"
 primary_contact: "[[Priya Patel]]"

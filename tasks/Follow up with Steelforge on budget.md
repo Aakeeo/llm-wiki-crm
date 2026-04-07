@@ -1,5 +1,5 @@
 ---
-type: task
+entity: task
 title: "Follow up with Steelforge on budget"
 assigned_to: "Our Team"
 related_to:

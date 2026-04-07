@@ -1,5 +1,5 @@
 ---
-type: contact
+entity: contact
 name: "Priya Patel"
 email: "priya@quantumlabs.io"
 phone: "+1-415-555-0267"

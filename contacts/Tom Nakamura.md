@@ -1,5 +1,5 @@
 ---
-type: contact
+entity: contact
 name: "Tom Nakamura"
 email: "tom@coastalvc.com"
 phone: "+1-305-555-0178"

@@ -1,5 +1,5 @@
 ---
-type: deal
+entity: deal
 name: "Logistics Analytics"
 company: "[[RouteAI]]"
 primary_contact: "[[Mike Torres]]"

@@ -1,5 +1,5 @@
 ---
-type: dashboard
+entity: dashboard
 ---
 
 # Pipeline
@@ -16,7 +16,7 @@ TABLE WITHOUT ID
   expected_close AS "Expected Close",
   primary_contact AS "Contact"
 FROM "deals"
-WHERE type = "deal" AND stage != "closed-lost"
+WHERE entity = "deal" AND stage != "closed-lost"
 SORT probability DESC
 ```
 
@@ -29,7 +29,7 @@ TABLE WITHOUT ID
   "$" + string(value) AS "Value",
   expected_close AS "Close Date"
 FROM "deals"
-WHERE type = "deal" AND stage = "closed-won"
+WHERE entity = "deal" AND stage = "closed-won"
 SORT expected_close DESC
 ```
 
@@ -41,6 +41,6 @@ TABLE WITHOUT ID
   company AS "Company",
   "$" + string(value) AS "Value"
 FROM "deals"
-WHERE type = "deal" AND stage = "closed-lost"
+WHERE entity = "deal" AND stage = "closed-lost"
 SORT expected_close DESC
 ```

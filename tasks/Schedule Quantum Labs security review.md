@@ -1,5 +1,5 @@
 ---
-type: task
+entity: task
 title: "Schedule Quantum Labs security review"
 assigned_to: "Our Team"
 related_to:

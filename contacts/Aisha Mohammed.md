@@ -1,5 +1,5 @@
 ---
-type: contact
+entity: contact
 name: "Aisha Mohammed"
 email: "a.mohammed@steelforgemfg.com"
 phone: "+1-313-555-0156"

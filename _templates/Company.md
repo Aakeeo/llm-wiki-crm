@@ -1,5 +1,5 @@
 ---
-type: company
+entity: company
 name: "{{name}}"
 domain: ""
 industry: ""

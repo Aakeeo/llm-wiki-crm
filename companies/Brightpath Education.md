@@ -1,5 +1,5 @@
 ---
-type: company
+entity: company
 name: "Brightpath Education"
 domain: "brightpathedu.org"
 industry: "Education"

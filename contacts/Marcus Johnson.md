@@ -1,5 +1,5 @@
 ---
-type: contact
+entity: contact
 name: "Marcus Johnson"
 email: "m.johnson@meridianhealth.com"
 phone: "+1-617-555-0198"

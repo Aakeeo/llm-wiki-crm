@@ -1,5 +1,5 @@
 ---
-type: dashboard
+entity: dashboard
 ---
 
 # Contacts Directory
@@ -13,6 +13,6 @@ TABLE WITHOUT ID
   last_contacted AS "Last Contact",
   email AS "Email"
 FROM "contacts"
-WHERE type = "contact"
+WHERE entity = "contact"
 SORT company ASC, name ASC
 ```

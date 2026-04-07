@@ -1,5 +1,5 @@
 ---
-type: company
+entity: company
 name: "Meridian Health"
 domain: "meridianhealth.com"
 industry: "Healthcare"

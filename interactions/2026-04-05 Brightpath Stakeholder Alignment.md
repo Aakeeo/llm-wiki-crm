@@ -1,5 +1,5 @@
 ---
-type: interaction
+entity: interaction
 date: 2026-04-05
 interaction_type: call
 participants:

@@ -1,5 +1,5 @@
 ---
-type: contact
+entity: contact
 name: "Elena Rodriguez"
 email: "elena.r@brightpathedu.org"
 phone: "+1-512-555-0189"

@@ -1,5 +1,5 @@
 ---
-type: contact
+entity: contact
 name: "David Kim"
 email: "d.kim@quantumlabs.io"
 phone: "+1-415-555-0301"

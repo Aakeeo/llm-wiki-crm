@@ -1,5 +1,5 @@
 ---
-type: deal
+entity: deal
 name: "Transaction Analytics"
 company: "[[NovaPay]]"
 primary_contact: "[[Lisa Tran]]"
