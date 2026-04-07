@@ -10,13 +10,33 @@ Welcome to your LLM-maintained CRM. Drop raw sources (meeting notes, emails, tra
 
 ## Quick Stats
 
-**Active Deals:** `$= dv.pages('"deals"').where(p => p.type == "deal" && p.stage != "closed-lost" && p.stage != "closed-won").length`
+```dataview
+TABLE WITHOUT ID
+  length(filter(rows, (r) => r.stage != "closed-lost" AND r.stage != "closed-won")) AS "Active Deals",
+  length(filter(rows, (r) => r.stage = "closed-won")) AS "Won Deals"
+FROM "deals"
+WHERE type = "deal"
+FLATTEN stage
+GROUP BY true
+```
 
-**Total Pipeline Value:** `$= "$" + dv.pages('"deals"').where(p => p.type == "deal" && p.stage != "closed-lost" && p.stage != "closed-won").values.map(p => p.value).reduce((a, b) => a + b, 0).toLocaleString()`
+```dataview
+TABLE WITHOUT ID
+  length(filter(rows, (r) => r.status = "active")) AS "Active Contacts",
+  length(rows) AS "Total Contacts"
+FROM "contacts"
+WHERE type = "contact"
+GROUP BY true
+```
 
-**Active Contacts:** `$= dv.pages('"contacts"').where(p => p.type == "contact" && p.status == "active").length`
-
-**Open Tasks:** `$= dv.pages('"tasks"').where(p => p.type == "task" && p.status != "done").length`
+```dataview
+TABLE WITHOUT ID
+  length(filter(rows, (r) => r.status != "done")) AS "Open Tasks",
+  length(filter(rows, (r) => r.status = "done")) AS "Completed Tasks"
+FROM "tasks"
+WHERE type = "task"
+GROUP BY true
+```
 
 ---
 
@@ -35,6 +55,6 @@ Welcome to your LLM-maintained CRM. Drop raw sources (meeting notes, emails, tra
 To use this CRM with your LLM agent:
 
 1. **Ingest a source:** drop meeting notes into `_inbox/`, then tell your LLM: *"Process the new file in _inbox"*
-2. **Ask a question:** *"What's our pipeline value this quarter?"* or *"When did we last talk to Quantum Labs?"*
-3. **Update a record:** *"Move the Meridian Health deal to closed-won"*
+2. **Ask a question:** *"What's our pipeline value this quarter?"* or *"Who are our warmest leads?"*
+3. **Update a record:** *"Move the Acme deal to negotiation"* or *"Mark Jane as inactive"*
 4. **Health check:** *"Run a lint check on the CRM"*

@@ -4,7 +4,7 @@
 
 Drop meeting notes in a folder. The LLM extracts contacts, companies, deals, and action items — updates every relevant page, maintains cross-references, keeps your pipeline current. Browse it all in Obsidian with graph view, Dataview dashboards, and full-text search. Zero lock-in. Your data is just files.
 
-<!-- TODO: Add screenshot of Obsidian graph view + pipeline dashboard -->
+<!-- Add screenshot: Obsidian graph view + pipeline dashboard side by side -->
 
 ---
 
@@ -25,7 +25,7 @@ Built on [Andrej Karpathy's LLM Wiki pattern](https://gist.github.com/karpathy/4
 ### 1. Clone and open in Obsidian
 
 ```bash
-git clone https://github.com/yourusername/llm-wiki-crm.git
+git clone https://github.com/arunchauhan/llm-wiki-crm.git
 ```
 
 Open the cloned folder as a vault in [Obsidian](https://obsidian.md).
@@ -84,9 +84,9 @@ llm_wiki/
 
 **Ingest** — Drop a raw source (meeting notes, email, transcript) into `_inbox/`. Tell your LLM to process it. The LLM extracts entities, creates/updates pages, maintains cross-references, and logs everything. A single source might touch 10+ files.
 
-**Query** — Ask questions against your CRM. *"What's our pipeline value?"* *"When did we last talk to Quantum Labs?"* *"What follow-ups are overdue?"* The LLM reads the relevant wiki pages and synthesizes an answer with citations.
+**Query** — Ask questions against your CRM. *"What's our pipeline value?"* *"Who are our warmest leads?"* *"What follow-ups are overdue?"* The LLM reads the relevant wiki pages and synthesizes an answer with citations.
 
-**Update** — Make changes via natural language. *"Move the Meridian deal to closed-won."* *"Mark Aisha as inactive."* The LLM finds the right page, updates it, and logs the change.
+**Update** — Make changes via natural language. *"Move the Acme deal to negotiation."* *"Mark Jane as inactive."* The LLM finds the right page, updates it, and logs the change.
 
 **Lint** — Ask for a health check. The LLM scans for stale deals, missing data, broken links, overdue tasks, and orphan pages. Outputs a report with suggested fixes.
 
@@ -108,14 +108,14 @@ All entities use YAML frontmatter (queryable by Dataview) and `[[wikilinks]]` fo
 
 ## Works With Any LLM
 
-The `CLAUDE.md` file contains all the instructions your LLM needs. It works with:
+The schema is defined in both `CLAUDE.md` and `AGENTS.md` (identical content). Your LLM agent picks up the right one automatically:
 
-- **[Claude Code](https://claude.ai/claude-code)** — just run `claude` in the vault directory
-- **[OpenAI Codex](https://openai.com/codex)** — copy `CLAUDE.md` content to `AGENTS.md`
-- **[Cursor](https://cursor.sh)** — the `.cursorrules` equivalent
+- **[Claude Code](https://claude.ai/claude-code)** — reads `CLAUDE.md`. Just run `claude` in the vault directory.
+- **[OpenAI Codex](https://openai.com/codex)** — reads `AGENTS.md`. Just run `codex` in the vault directory.
+- **[Cursor](https://cursor.sh)** — reads `CLAUDE.md` or add as `.cursorrules`
 - **Any LLM agent** that reads instruction files from the project root
 
-The schema is LLM-agnostic. The file is called `CLAUDE.md` by convention, but the instructions work with any model.
+The schema is LLM-agnostic. The instructions work with any model.
 
 ---
 
