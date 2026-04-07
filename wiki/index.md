@@ -1,5 +1,5 @@
 ---
-type: index
+entity: index
 ---
 
 # CRM Index

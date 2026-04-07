@@ -1,5 +1,5 @@
 ---
-type: dashboard
+entity: dashboard
 ---
 
 # Companies Directory
@@ -12,6 +12,6 @@ TABLE WITHOUT ID
   status AS "Status",
   location AS "Location"
 FROM "companies"
-WHERE type = "company"
+WHERE entity = "company"
 SORT name ASC
 ```

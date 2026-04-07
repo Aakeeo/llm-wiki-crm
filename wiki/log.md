@@ -1,5 +1,5 @@
 ---
-type: log
+entity: log
 ---
 
 # CRM Activity Log

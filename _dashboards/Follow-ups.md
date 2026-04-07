@@ -1,5 +1,5 @@
 ---
-type: dashboard
+entity: dashboard
 ---
 
 # Follow-ups
@@ -14,7 +14,7 @@ TABLE WITHOUT ID
   assigned_to AS "Owner",
   related_to AS "Related To"
 FROM "tasks"
-WHERE type = "task" AND status != "done" AND due_date < date(today)
+WHERE entity = "task" AND status != "done" AND due_date < date(today)
 SORT due_date ASC
 ```
 
@@ -28,7 +28,7 @@ TABLE WITHOUT ID
   assigned_to AS "Owner",
   related_to AS "Related To"
 FROM "tasks"
-WHERE type = "task" AND status != "done" AND due_date >= date(today)
+WHERE entity = "task" AND status != "done" AND due_date >= date(today)
 SORT due_date ASC
 ```
 
@@ -40,7 +40,7 @@ TABLE WITHOUT ID
   due_date AS "Due",
   related_to AS "Related To"
 FROM "tasks"
-WHERE type = "task" AND status = "done"
+WHERE entity = "task" AND status = "done"
 SORT due_date DESC
 LIMIT 10
 ```

@@ -1,5 +1,5 @@
 ---
-type: interaction
+entity: interaction
 date: {{date}}
 interaction_type: meeting
 participants:

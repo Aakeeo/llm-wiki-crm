@@ -12,7 +12,7 @@ The human curates sources, directs analysis, and asks questions. You do everythi
 
 ```yaml
 ---
-type: contact
+entity: contact
 name: "First Last"
 email: ""
 phone: ""
@@ -40,7 +40,7 @@ updated: YYYY-MM-DD
 
 ```yaml
 ---
-type: company
+entity: company
 name: ""
 domain: ""
 industry: ""
@@ -74,7 +74,7 @@ updated: YYYY-MM-DD
 
 ```yaml
 ---
-type: deal
+entity: deal
 name: ""
 company: "[[Company Name]]"
 primary_contact: "[[First Last]]"
@@ -105,7 +105,7 @@ updated: YYYY-MM-DD
 
 ```yaml
 ---
-type: interaction
+entity: interaction
 date: YYYY-MM-DD
 interaction_type: meeting # meeting | email | call | demo | social
 participants:
@@ -131,7 +131,7 @@ created: YYYY-MM-DD
 
 ```yaml
 ---
-type: task
+entity: task
 title: ""
 assigned_to: ""
 related_to:
