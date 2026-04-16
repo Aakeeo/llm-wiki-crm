@@ -6,6 +6,8 @@ Drop meeting notes in a folder. The LLM extracts contacts, companies, deals, and
 
 <video src="https://raw.githubusercontent.com/Aakeeo/llm-wiki-crm/main/demo.mp4" controls width="100%"></video>
 
+**Production deployment guide + new connector updates** → [aakeeo.com/resources/llm-wiki-crm](https://www.aakeeo.com/resources/llm-wiki-crm)
+
 ---
 
 ## What is this?
@@ -25,7 +27,7 @@ Built on [Andrej Karpathy's LLM Wiki pattern](https://gist.github.com/karpathy/4
 ### 1. Clone and open in Obsidian
 
 ```bash
-git clone https://github.com/arunchauhan/llm-wiki-crm.git
+git clone https://github.com/Aakeeo/llm-wiki-crm.git
 ```
 
 Open the cloned folder as a vault in [Obsidian](https://obsidian.md).
@@ -154,6 +156,14 @@ The LLM's job: everything else.
 - **[Templater](https://github.com/SilentVoid13/Templater)** — dynamic templates
 - **Markdown + YAML** — your data, in plain text, forever
 - **Git** — version history, branching, and collaboration for free
+
+---
+
+## Built by
+
+[Aakeeo Technologies](https://www.aakeeo.com) — we build CRM systems that mid-market teams actually use. 40+ implementations across healthcare, logistics, and financial services on SuiteCRM and custom stacks.
+
+If you're evaluating CRM infrastructure, [let's talk](https://www.aakeeo.com/contact).
 
 ---
 
